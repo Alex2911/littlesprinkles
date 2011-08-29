@@ -1,5 +1,5 @@
 name: sqlitewrapper
-url: https://github.com/zimt/sprinkles/tree/stable/NSColor+RGBHex
+url: https://github.com/Alex2911/littlesprinkles/tree/master/sqlitewrapper
 files:
-  - https://raw.github.com/zimt/sprinkles/stable/NSColor+RGBHex/NSColor+RGBHex.h
-  - https://raw.github.com/zimt/sprinkles/stable/NSColor+RGBHex/NSColor+RGBHex.m
+  - https://github.com/Alex2911/littlesprinkles/raw/master/sqlitewrapper/SQLiteManager.h
+  - https://github.com/Alex2911/littlesprinkles/raw/master/sqlitewrapper/SQLiteManager.m
