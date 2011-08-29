@@ -3,11 +3,11 @@ sqlitewrapper - HOW TO USE
 * Import the class
 * Initiate the database: 
 
-	SQLiteManager * dbManager = [[SQLiteManager alloc] initWithDatabaseNamed:@"your.db"]; 
+    	SQLiteManager *dbManager = [[SQLiteManager alloc] initWithDatabaseNamed:@"your.db"]; 
 
 * Insert / update the database: 
 
-	[dbManager doQuery:@"Your Query - terminated by semicolon (;)"]; 
+    	[dbManager doQuery:@"Your Query - terminated by semicolon (;)"]; 
 
 * Get a result (select): 
 
@@ -21,6 +21,7 @@ base64 - HOW TO USE
 ===================
 * Import the class
 * Initiate the class:
+
     	[Base64 initialize];
 
 * Encode or decode
@@ -45,15 +46,15 @@ Copyright notice:
 ================
 sqlitewrapper:
 
-Created by Ester Sanchez on 10/03/11. 
-Copyright 2011 Dinamica Studios. All rights reserved. 
-Modified by Alex Jungwirth 09/04/11. 
-Copyright 2011 Jungwirth Media 
-Released under MIT License 
+  Created by Ester Sanchez on 10/03/11.
+  Copyright 2011 Dinamica Studios. All rights reserved. 
+  Modified by Alex Jungwirth 09/04/11. 
+  Copyright 2011 Jungwirth Media
+  Released under MIT License 
 - - -
 base64:
-Created by Kiichi Takeuchi on 4/20/10. 
-Copyright 2010 ObjectGraph LLC. All rights reserved. 
-Original Source Code is donated by Cyrus 
-Public Domain License 
-http://www.cocoadev.com/index.pl?BaseSixtyFour 
+ Created by Kiichi Takeuchi on 4/20/10. 
+ Copyright 2010 ObjectGraph LLC. All rights reserved. 
+ Original Source Code is donated by Cyrus 
+ Public Domain License 
+ http://www.cocoadev.com/index.pl?BaseSixtyFour 
