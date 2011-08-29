@@ -1,0 +1,5 @@
+name: base64
+url: https://github.com/Alex2911/littlesprinkles/tree/master/base64
+files:
+  - https://github.com/Alex2911/littlesprinkles/raw/master/base64/Base64.h
+  - https://github.com/Alex2911/littlesprinkles/raw/master/base64/Base64.m
