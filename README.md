@@ -7,7 +7,7 @@ sqlitewrapper - HOW TO USE
 
 * Insert / update the database: 
 
-    <pre>[dbManager doQuery:@"Your Query - terminated by semicolon (;)"];</pre>
+	[dbManager doQuery:@"Your Query - terminated by semicolon (;)"];</pre>
 
 * Get a result (select): 
 
@@ -23,13 +23,12 @@ base64 - HOW TO USE
 
 * Initiate the class:
 
-    [Base64 initialize];
+	[Base64 initialize];
 
 * Encode or decode
 
-    NSData *data = [Base64 decode:EncodedData];
-
-    NSString *EncodeString = [Base64 encode:SomeData];
+	NSData *data = [Base64 decode:EncodedData];
+	NSString *EncodeString = [Base64 encode:SomeData];
 
 LICENSE
 =======
@@ -44,33 +43,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 - - -
 
-base64 is licensed under Public Domain License
-
-
 Copyright notice:
-
+================
 sqlitewrapper:
 
-  Created by Ester Sanchez on 10/03/11.
-
-  Copyright 2011 Dinamica Studios. All rights reserved.
-
-  Modified by Alex Jungwirth 09/04/11.
-
-  Copyright 2011 Jungwirth Media
-
-  Released under MIT License
-
+Created by Ester Sanchez on 10/03/11.
+Copyright 2011 Dinamica Studios. All rights reserved.
+Modified by Alex Jungwirth 09/04/11.
+Copyright 2011 Jungwirth Media
+Released under MIT License
 - - -
 base64:
-
 Created by Kiichi Takeuchi on 4/20/10.
-
 Copyright 2010 ObjectGraph LLC. All rights reserved.
-
 Original Source Code is donated by Cyrus
-
 Public Domain License
-
 http://www.cocoadev.com/index.pl?BaseSixtyFour
-
