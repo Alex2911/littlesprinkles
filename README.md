@@ -3,11 +3,11 @@ sqlitewrapper - HOW TO USE
 * Import the class
 * Initiate the database: 
 
-	SQLiteManager * dbManager = [[SQLiteManager alloc] initWithDatabaseNamed:@"your.db"];
+	SQLiteManager * dbManager = [[SQLiteManager alloc] initWithDatabaseNamed:@"your.db"]; 
 
 * Insert / update the database: 
 
-	[dbManager doQuery:@"Your Query - terminated by semicolon (;)"];</pre>
+	[dbManager doQuery:@"Your Query - terminated by semicolon (;)"]; 
 
 * Get a result (select): 
 
