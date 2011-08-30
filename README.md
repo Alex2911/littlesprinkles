@@ -1,6 +1,7 @@
 sqlitewrapper - HOW TO USE
 ==========================
 * Import the class
+* Include libsqlite3.dylib to Frameworks
 * Initiate the database: 
 
     	SQLiteManager *dbManager = [[SQLiteManager alloc] initWithDatabaseNamed:@"your.db"]; 
